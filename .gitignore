@@ -1,0 +1,24 @@
+# ─── 本仓库只放「流水线」，不放具体论文 ───────────────────────────
+# 论文原文 / 结构化全文 / 卡片 / 符号表 / 复现代码都默认不提交。
+# 如果你想把某个 fork 当成自己的私有笔记库，删掉下面这一段即可。
+papers/**/*.pdf
+papers/**/*.md
+notes/**/*.md
+code/**/*
+!**/.gitkeep
+
+# ─── Obsidian 个人状态（每台机器不同，不必同步）─────────────────
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# ─── 操作系统 / 编辑器垃圾 ──────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+
+# ─── Python ─────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
