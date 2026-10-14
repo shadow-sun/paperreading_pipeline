@@ -9,6 +9,7 @@ paper-lab/
   notes/<paper>/<paper>.md       论文卡片（结构见下）
   notes/<paper>/notation.md      符号表（只汇总公式，公式后解释变量）
   notes/concepts/<概念>.md       跨论文概念笔记
+  notes/datasets/<数据集名>.md    数据集笔记（标题 = 数据集名，tag = 主题，可多 tag）
   code/<paper>/                  官方代码 + 你的复现（仅少量论文）
   code/<paper>/REPRO.md          复现日志：差异、trace、指标对齐
   profile/learner.md             你的能力画像（喂给 AI）
@@ -27,5 +28,6 @@ paper-card:
 - 卡片文件名 = `<作者><年份> - <标题>`，所以 `[[<paper>]]` 直接指向卡片。
 - 同篇的卫星文件用相对链接：`[符号表](notation.md)`。
 - 概念用 `[[<概念名>]]`，与卡片互相链接。
+- 数据集用 `[[<数据集名>]]`：文件名 = 数据集名，tag = 主题（audit / privacy-protection / memory 等，可多 tag），统一加 `dataset` tag。
 
 code 根据重要程度进行安排，仅少量论文进行复现。

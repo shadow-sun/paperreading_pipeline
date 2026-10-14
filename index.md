@@ -28,3 +28,12 @@ LIST
 FROM "notes/concepts"
 SORT file.name ASC
 ```
+
+## 数据集
+
+```dataview
+TABLE task AS 任务, file.tags AS 主题
+FROM "notes/datasets"
+WHERE contains(file.tags, "#dataset")
+SORT file.name ASC
+```
