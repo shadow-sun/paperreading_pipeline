@@ -4,10 +4,10 @@
   Usage:
     .\new-paper.ps1 -Slug "mikolov2013 - Word Representations" -Title "Efficient Estimation of Word Representations in Vector Space" -Year 2013 -Files ".\in\w2v.pdf",".\in\w2v.md"
     .\new-paper.ps1 -Slug "he2016 - ResNet" -Title "Deep Residual Learning for Image Recognition" -Repro -Code ".\in\official-code"
-    .\new-paper.ps1 -Slug "Smith2024 - Example Paper" -Title "An Example Paper Title" -Year 2024
+    .\new-paper.ps1 -Slug "Yuan2026 - Agent Self-Auditing" -Title "Verify Before You Commit: Towards Faithful Reasoning in LLM Agents via Self-Auditing" -Year 2026
 
   Params:
-    -Slug    your name for the paper (required), e.g. "Smith2024 - Example Paper"
+    -Slug    your name for the paper (required), e.g. "Yuan2026 - Agent Self-Auditing"
              (also used as the card file name: notes/<slug>/<slug>.md)
     -Title   paper title (required)
     -Year    year (optional)

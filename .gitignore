@@ -1,9 +1,8 @@
 # ─── 本仓库只放「流水线」，不放具体论文 ───────────────────────────
 # 论文原文 / 结构化全文 / 卡片 / 符号表 / 复现代码都默认不提交。
 # 如果你想把某个 fork 当成自己的私有笔记库，删掉下面这一段即可。
-papers/**/*.pdf
-papers/**/*.md
-notes/**/*.md
+papers/**/*
+notes/**/*
 code/**/*
 !**/.gitkeep
 
@@ -11,6 +10,9 @@ code/**/*
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/cache
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
+.obsidian/plugins/*/data.json
 
 # ─── 操作系统 / 编辑器垃圾 ──────────────────────────────────────
 .DS_Store
